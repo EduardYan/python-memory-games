@@ -1,0 +1,65 @@
+/*
+ * These are the styles
+ * for the pages
+*/
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #9999f3;
+}
+
+.container {
+  width: 80%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#title {
+  color: #555;
+  margin: 6rem 0 3rem 0;
+  transition: color .3 ease;
+  font-weight: lighter;
+}
+
+#title:hover {
+  color: #666;
+}
+
+.game-options {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.game-options hr {
+  width: 20%;
+  color: #00f3;
+}
+
+.game-options a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border: 1px #222 solid;
+  border-radius: 0.8rem;
+  transition: color .3s ease;
+  display: block;
+  color: #555;
+  width: 30%;
+  background-color: #5050e6;
+  transition: color .3s ease;
+  transition: box-shadow .3s ease;
+}
+
+.game-options a:hover {
+  color: #888;
+}
+
+.game-options a:hover {
+  background-color: #5050c6;
+  box-shadow: .3rem .3rem rgba(0, 0, 0, 0.3);
+}

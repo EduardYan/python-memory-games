@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<!--STYLES-->
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/games.css') }}">
+
+<h1>Fruits</h1>
+
+<section class="view-cards">
+  <div class="card-one card">1</div>
+
+  <div class="card-two card">2</div>
+
+  <div class="card-three card">3</div>
+
+  <div class="card-four card">4</div>
+
+  <div class="card-five card">5</div>
+
+  <div class="card-six card">6</div>
+
+  <div class="card-seven card">7</div>
+
+  <div class="card-eigth card">8</div>
+
+  <div class="card-nine card">9</div>
+
+</section>
+
+<!-- VALIDATIN THE OPTION FOR SHOW DIFERENTS IMAGES -->
+
+{% if option == '1' %}
+<script src="{{ url_for('static', filename = 'js/options/fruits/option1.js') }}"></script>
+{% elif option == '2' %}
+<script src="{{ url_for('static', filename = 'js/options/fruits/option2.js') }}"></script>
+{% elif option == '3' %}
+<script src="{{ url_for('static', filename = 'js/option/fruits/option3.js') }}"></script>
+{% elif option == '4'%}
+<script src="{{ url_for('static', filename = 'js/options/fruits/option4.js') }}"></script>
+{% elif option == '5'%}
+<script src="{{ url_for('static', filename = 'js/options/fruits/option5.js') }}"></script>
+{% elif option == '6'%}
+<script src="{{ url_for('static', filename = 'js/options/fruits/option6.js') }}"></script>
+
+{% endif %}
+
+{% endblock %}
