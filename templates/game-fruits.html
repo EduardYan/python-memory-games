@@ -6,8 +6,6 @@
 <link rel="stylesheet" href="{{ url_for('static', filename = 'css/games.css') }}">
 
 <h1 id="title">Fruits</h1>
-<p id="score">Score: </p>
-
 
 <section class="view-cards">
   <div class="card-one card">1</div>
@@ -34,7 +32,12 @@
 
   <div class="card-twelve card">12</div>
 
+</section>
+
+<section class="actions-view">
   <a href="{{ url_for('game_fruits') }}">New Game</a>
+  <a href="{{ url_for('home') }}">Main</a>
+
 
 </section>
 

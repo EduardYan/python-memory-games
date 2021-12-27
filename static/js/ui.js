@@ -16,8 +16,7 @@ export class UI {
     const image = document.createElement("img");
     image.className = 'with-image';
 
-    card.innerHTML = `<img src="../static/img/${name}" alt="image1">`;
-
+    card.innerHTML = `<img src="../static/img/${name}" alt="image-${name}">`;
 
   }
 
