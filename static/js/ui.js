@@ -12,7 +12,7 @@ export class UI {
   // }
 
   showImage(cardElement, name) {
-    const card = document.querySelector("." + cardElement);
+    const card = document.querySelector(`.${cardElement}`);
     const image = document.createElement("img");
     image.className = 'with-image';
 

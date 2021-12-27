@@ -4,13 +4,49 @@
  */
 
 import { UI } from '../../ui.js'
+import { Game } from '../../game.js'
+import { Card } from '../../card.js'
 
+// globals values
 const ui = new UI();
+let cardOne = null;
+let cardTwo = null;
+
+/**
+ * 
+ * @param {string} name The name for found the card
+ * @returns The element found
+ */
+function getElementCard(name) {
+  const cardElement = document.querySelector(`.${name}`);
+  return cardElement;
+
+}
+
 
 // Assing the values to the cards
 // Apple
 document.querySelector(".card-one").addEventListener("click", () => {
   ui.showImage("card-one", 'apple.jpg');
+  const cardElement = getElementCard("card-one");
+  const src = cardElement.childNodes[0].currentSrc
+  const card = new Card("1", "card-one", src)
+
+
+  if (cardOne == null) {
+    cardOne = card;
+  } else {
+    cardTwo = card;
+  }
+
+  if (cardOne != null && cardTwo != null) {
+    const game = new Game(cardOne, cardTwo)
+    game.try()
+
+    cardOne = null;
+    cardTwo = null;
+
+  }
 
 });
 
@@ -23,6 +59,26 @@ document.querySelector(".card-six").addEventListener("click", () => {
 // Banana
 document.querySelector(".card-two").addEventListener("click", () => {
   ui.showImage("card-two", 'banana.jpg')
+  const cardElement = getElementCard("card-two");
+  const src = cardElement.childNodes[0].currentSrc;
+  const card = new Card("2", "card-two", src);
+
+
+  if (cardOne == null) {
+    cardOne = card;
+  } else {
+    cardTwo = card;
+  }
+
+  if (cardOne != null && cardTwo != null) {
+    const game = new Game(cardOne, cardTwo)
+    game.try()
+
+    cardOne = null;
+    cardTwo = null;
+
+  }
+
 
 });
 
