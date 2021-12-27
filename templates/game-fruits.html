@@ -26,22 +26,21 @@
 
   <div class="card-nine card">9</div>
 
+  <div class="card-ten card">10</div>
+
+  <div class="card-eleven card">11</div>
+
+  <div class="card-twelve card">12</div>
+
 </section>
 
 <!-- VALIDATIN THE OPTION FOR SHOW DIFERENTS IMAGES -->
-
 {% if option == '1' %}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option1.js') }}"></script>
+<script src="{{ url_for('static', filename = 'js/options/fruits/option1.js') }}" type="module"></script>
 {% elif option == '2' %}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option2.js') }}"></script>
+<script src="{{ url_for('static', filename = 'js/options/fruits/option2.js') }}" type="module"></script>
 {% elif option == '3' %}
-<script src="{{ url_for('static', filename = 'js/option/fruits/option3.js') }}"></script>
-{% elif option == '4'%}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option4.js') }}"></script>
-{% elif option == '5'%}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option5.js') }}"></script>
-{% elif option == '6'%}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option6.js') }}"></script>
+<script src="{{ url_for('static', filename = 'js/options/fruits/option3.js') }}" type="module"></script>
 
 {% endif %}
 

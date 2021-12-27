@@ -30,6 +30,7 @@ def game_fruits():
 
     # choicing the option for put the images
     option = str(choice(OPTIONS_FRUITS))
+    print(option)
 
     return render_template('game-fruits.html', option = option)
 
