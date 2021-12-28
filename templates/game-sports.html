@@ -1,13 +1,12 @@
 {% extends 'layout.html' %}
 
-<!-- THIS IS THE PAGE FOR THE GAME OF FRUITS -->
+<!-- THIS IS THE PAGE FOR THE GAME OF SPORTS -->
 
 {% block content %}
-
-<!--STYLES-->
+<!-- STYLE -->
 <link rel="stylesheet" href="{{ url_for('static', filename = 'css/games.css') }}">
 
-<h1 id="title">Fruits</h1>
+<h1 id="title">Sports</h1>
 
 <section class="view-cards">
   <div class="card-one card">1</div>
@@ -37,21 +36,19 @@
 </section>
 
 <section class="actions-view">
-  <a href="{{ url_for('game_fruits') }}">New Game</a>
+  <a href="{{ url_for('game_sports') }}">New Game</a>
   <a href="{{ url_for('home') }}">Main</a>
 
 
 </section>
 
-
 <!-- VALIDATIN THE OPTION FOR SHOW DIFERENTS IMAGES -->
 {% if option == '1' %}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option1.js') }}" type="module"></script>
+<script src="{{ url_for('static', filename = 'js/options/sports/option1.js') }}" type="module"></script>
 {% elif option == '2' %}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option2.js') }}" type="module"></script>
+<script src="{{ url_for('static', filename = 'js/options/sports/option2.js') }}" type="module"></script>
 {% elif option == '3' %}
-<script src="{{ url_for('static', filename = 'js/options/fruits/option3.js') }}" type="module"></script>
-
+<script src="{{ url_for('static', filename = 'js/options/sports/option3.js') }}" type="module"></script>
 {% endif %}
 
 {% endblock %}
