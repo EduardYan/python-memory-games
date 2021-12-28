@@ -25,9 +25,9 @@ function getElementCard(name) {
 
 
 // Assing the values to the cards
-// Apple
+// Tennis
 document.querySelector(".card-eleven").addEventListener("click", () => {
-  ui.showImage("card-eleven", 'apple.jpg');
+  ui.showImageSport("card-eleven", 'tennis.jpg');
   const cardElement = getElementCard("card-eleven");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("11", "card-eleven", src)
@@ -52,7 +52,7 @@ document.querySelector(".card-eleven").addEventListener("click", () => {
 });
 
 document.querySelector(".card-five").addEventListener("click", () => {
-  ui.showImage("card-five", 'apple.jpg');
+  ui.showImageSport("card-five", 'tennis.jpg');
   const cardElement = getElementCard("card-five");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("5", "card-five", src)
@@ -77,7 +77,7 @@ document.querySelector(".card-five").addEventListener("click", () => {
 });
 
 document.querySelector(".card-two").addEventListener("click", () => {
-  ui.showImage("card-two", 'apple.jpg')
+  ui.showImageSport("card-two", 'tennis.jpg')
   const cardElement = getElementCard("card-two");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("2", "card-two", src)
@@ -102,7 +102,7 @@ document.querySelector(".card-two").addEventListener("click", () => {
 });
 
 document.querySelector(".card-nine").addEventListener("click", () => {
-  ui.showImage("card-nine", 'apple.jpg')
+  ui.showImageSport("card-nine", 'tennis.jpg')
   const cardElement = getElementCard("card-nine");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("9", "card-nine", src)
@@ -127,9 +127,9 @@ document.querySelector(".card-nine").addEventListener("click", () => {
 });
 
 
-// Banana
+// Basketball
 document.querySelector(".card-ten").addEventListener("click", () => {
-  ui.showImage("card-ten", 'banana.jpg')
+  ui.showImageSport("card-ten", 'basketball.jpg')
   const cardElement = getElementCard("card-ten");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("10", "card-ten", src)
@@ -155,7 +155,7 @@ document.querySelector(".card-ten").addEventListener("click", () => {
 });
 
 document.querySelector(".card-four").addEventListener("click", () => {
-  ui.showImage("card-four", 'banana.jpg')
+  ui.showImageSport("card-four", 'basketball.jpg')
   const cardElement = getElementCard("card-four");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("4", "card-four", src)
@@ -181,7 +181,7 @@ document.querySelector(".card-four").addEventListener("click", () => {
 });
 
 document.querySelector(".card-eigth").addEventListener("click", () => {
-  ui.showImage("card-eigth", 'banana.jpg')
+  ui.showImageSport("card-eigth", 'basketball.jpg')
   const cardElement = getElementCard("card-eigth");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("8", "card-eigth", src)
@@ -207,7 +207,7 @@ document.querySelector(".card-eigth").addEventListener("click", () => {
 });
 
 document.querySelector(".card-twelve").addEventListener("click", () => {
-  ui.showImage("card-twelve", 'banana.jpg')
+  ui.showImageSport("card-twelve", 'basketball.jpg')
   const cardElement = getElementCard("card-twelve");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("12", "card-twelve", src)
@@ -231,9 +231,9 @@ document.querySelector(".card-twelve").addEventListener("click", () => {
 
 });
 
-// Watermelon
+// Football
 document.querySelector(".card-one").addEventListener("click", () => {
-  ui.showImage("card-one", 'watermelon.jpg')
+  ui.showImageSport("card-one", 'football.jpg')
   const cardElement = getElementCard("card-one");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("1", "card-one", src)
@@ -258,7 +258,7 @@ document.querySelector(".card-one").addEventListener("click", () => {
 });
 
 document.querySelector(".card-three").addEventListener("click", () => {
-  ui.showImage("card-three", 'watermelon.jpg')
+  ui.showImageSport("card-three", 'football.jpg')
   const cardElement = getElementCard("card-three");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("3", "card-three", src)
@@ -284,9 +284,9 @@ document.querySelector(".card-three").addEventListener("click", () => {
 });
 
 
-// Orange
+// Biking
 document.querySelector(".card-six").addEventListener("click", () => {
-  ui.showImage("card-six", 'orange.jpg')
+  ui.showImageSport("card-six", 'biking.jpg')
   const cardElement = getElementCard("card-six");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("6", "card-six", src)
@@ -312,7 +312,7 @@ document.querySelector(".card-six").addEventListener("click", () => {
 });
 
 document.querySelector(".card-seven").addEventListener("click", () => {
-  ui.showImage("card-seven", 'orange.jpg')
+  ui.showImageSport("card-seven", 'biking.jpg')
   const cardElement = getElementCard("card-seven");
   const src = cardElement.childNodes[0].currentSrc
   const card = new Card("7", "card-seven", src)

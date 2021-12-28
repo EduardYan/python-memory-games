@@ -1,6 +1,6 @@
 /**
  * This is the option 1 for put the images
- * in the game.
+ * in the game. For the sports
  */
 
 import { UI } from '../../ui.js'
