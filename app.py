@@ -1,6 +1,6 @@
 """
 This is the principal file for execute
-the server for start the game.
+the configurations of the server
 """
 
 from flask import Flask, render_template
@@ -47,7 +47,3 @@ def game_sports():
     print(option)
 
     return render_template('game-sports.html', option = option)
-
-
-if __name__ == '__main__':
-    app.run(port = 3000, debug = True)
