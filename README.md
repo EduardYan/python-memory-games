@@ -29,6 +29,8 @@ __And visit your browser in:__ ***localhost:3000***
 ## Screenshot.
 ![screenshot](./doc/screenshot.png)
 
+## Resources.
+* Images from [pexels.com](www.pexels.com)
 
 ## Notes.
 
