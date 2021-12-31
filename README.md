@@ -30,7 +30,7 @@ __And visit your browser in:__ ***localhost:3000***
 ![screenshot](./doc/screenshot.png)
 
 ## Resources.
-* Images from [pexels.com](www.pexels.com)
+* Images from [pexels.com](https://www.pexels.com)
 
 ## Notes.
 
